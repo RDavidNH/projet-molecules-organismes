@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projet molécules et organismes</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-sm-center">
+        <div class="col-sm-6">
+
+        <!-- sign in form -->
+        <form>
+            <fieldset>
+                <legend> <h2 class="text-center">Se connecter!</h2> </legend>
+                <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre email">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                </div>
+                <div class="form-group">
+                <label for="exampleInputPassword1">Mot de passe</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Votre mot de passe">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+            </fieldset>
+        </form>
+
+        <!-- subscribe form -->
+        <hr>
+        <form>
+            <fieldset>
+                <legend> <h2 class="text-center">S'inscrire!</h2> </legend>
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" class="form-control" id="nom" aria-describedby="nom-help" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" class="form-control" id="prenom" aria-describedby="prenom-help" placeholder="Votre prénom">
+                </div>
+                <div class="form-group">
+                    <label for="ville">Ville</label>
+                    <input type="text" class="form-control" id="ville" aria-describedby="ville-help" placeholder="Votre ville">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="email-help" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" class="form-control" id="password" placeholder="Votre mot de passe">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confimez mot de passe</label>
+                    <input type="password" class="form-control" id="confirm-password" placeholder="Confimez le mot de passe">
+                </div>
+    
+                <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+            </fieldset>
+        </form>
+
+        <!-- forgot password -->
+        <hr>
+        <form>
+            <fieldset>
+                <legend> <h2 class="text-center">Mot de passe oublié!</h2> </legend>
+                <div class="form-group">
+                <label for="email-help">Email</label>
+                <input type="email" class="form-control" id="email-help" aria-describedby="email-help" placeholder="Votre email">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Reinitialiser</button>
+            </fieldset>
+        </form>
+    
+        <!-- change password -->
+        <hr>
+        <form>
+            <fieldset>
+                <legend> <h2 class="text-center">Changer mot de passe!</h2> </legend>
+                <div class="form-group">
+                    <label for="newpassword-help">Nouveau mot de passe</label>
+                    <input type="password" class="form-control" id="newpassword-help" aria-describedby="newpassword-help" placeholder="Nouveau mot de passe">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                </div>
+                <div class="form-group">
+                    <label for="confirmpassword-help">Répétez le nouveau mot de passe</label>
+                    <input type="password" class="form-control" id="confirmpassword-help" aria-describedby="confirmpassword-help" placeholder="Confirmez mot de passe">
+                </div>
+                <div class="form-group">
+                    <label for="oldpassword-help">Mot de passe actuel</label>
+                    <input type="password" class="form-control" id="oldpassword-help" aria-describedby="oldpassword-help" placeholder="Votre mot de passe actuel">
+                </div>
+                        
+                <button type="submit" class="btn btn-primary btn-block">Changer mot de passe</button>
+            </fieldset>
+        </form>
+    
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>
